@@ -7,7 +7,7 @@ public class arraysort
 {
 	public static void main(String args[])
 	{
-		int i,tos=-1;
+		int i,tos=-1,pass;
 		int arr[]=new int[5];
 		for(i=0;i<5;i++)
 		{
@@ -22,11 +22,12 @@ public class arraysort
 		
 		}
 		arraysort ob=new arraysort();
-		ob.insertElement(arr,tos);
+		pass==Integer.parseInt(args[5]);
+		ob.insertElement(arr,tos,pass);
 	}
 
 
-void insertElement(int a[],int tos)
+void insertElement(int a[],int tos,int pass)
 {
 	int j=0,top=-1;
 	if(tos==a.length-1)
@@ -41,7 +42,7 @@ void insertElement(int a[],int tos)
 		
 		
 			//temp[5]=Integer.parseInt(args[5]);why this line is not working
-		temp[5]=90;
+		temp[5]=pass;
 		System.out.println("now the array is");
 		for(j=0;j<6;j++)
 		{
