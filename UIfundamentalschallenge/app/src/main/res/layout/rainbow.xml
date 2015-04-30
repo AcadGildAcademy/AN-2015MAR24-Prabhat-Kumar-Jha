@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/red"
+                android:background="@color/Red"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/orange"
+                android:background="@color/Orange"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/yellow"
+                android:background="@color/Yellow"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/green"
+                android:background="@color/Green"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/blue"
+                android:background="@color/Blue"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/indigo"
+                android:background="@color/Indigo"
+                android:textSize="30dp" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/violet"
+                android:background="@color/Violet"
+                android:textSize="30dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+</LinearLayout>

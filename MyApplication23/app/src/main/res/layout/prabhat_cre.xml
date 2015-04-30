@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textCardBalance"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Enter the credit balance ($) "
+            android:layout_weight="1"
+            android:background="@color/abc_search_url_text_normal" />
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtCardBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffaffe0"
+             />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtInterestRate"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Yearly Interest Rate ($)"
+            android:layout_weight="1"
+            android:background="@color/abc_search_url_text_normal"/>
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtInterestRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fffaffe0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtPayement"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Minimum Payement ($)"
+            android:background="@color/abc_search_url_text_normal"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtPayement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fffaffe0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtFinaCardBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final Card Balance ($)"
+            android:layout_weight="1"
+            android:background="@color/abc_search_url_text_normal"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:id="@+id/edtFinalCardBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#fffaffe0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/MonthsRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Months Remaining"
+            android:layout_weight="1"
+            android:background="@color/abc_search_url_text_normal"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:id="@+id/edtMonthsRemaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.86"
+            android:background="#fffaffe0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/txtFinalInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Interest Paid Will be ($)"
+            android:layout_weight="1"
+            android:background="@color/abc_search_url_text_normal"/>
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:id="@+id/edtFinalInterest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.10"
+            android:background="#fffaffe0"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnCompute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compute"
+            android:background="#fff9fff6" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clear"
+            android:background="#fff9fff6"/>
+    </LinearLayout>
+
+</LinearLayout>
