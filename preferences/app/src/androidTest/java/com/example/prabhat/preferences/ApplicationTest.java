@@ -1,4 +1,4 @@
-package com.example.prabhat.uifundamentalschallenge;
+package com.example.prabhat.preferences;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

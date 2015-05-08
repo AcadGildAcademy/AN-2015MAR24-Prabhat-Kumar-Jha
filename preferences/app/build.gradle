@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.example.prabhat.uifundamentalschallenge"
+        applicationId "com.example.prabhat.preferences"
         minSdkVersion 8
         targetSdkVersion 21
         versionCode 1
